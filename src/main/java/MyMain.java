@@ -83,9 +83,12 @@ public class MyMain {
                 }
             }
         }
-
+        ArrayList<Integer> sorted2 = new ArrayList<Integer>();
+        for (int v = sorted.size()-1; v >= 0; v--) {
+            sorted2.add(sorted.get(v));
+        }
         // REPLACE WITH YOUR CODE
-        return sorted;
+        return sorted2;
     }
 
 
